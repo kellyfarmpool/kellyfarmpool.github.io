@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelly Farm Pool</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
   <script>
     window.OneSignal = window.OneSignal || [];
@@ -10,11 +15,6 @@
       });
     });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kelly Farm Pool</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="manifest" href="manifest.json">
   <style>
     @font-face {
       font-family: 'Poppins';
@@ -54,11 +54,14 @@
 </head>
 <body>
   <img class="logo" src="/logo.png" alt="KFPRA Logo">
+  <div class='onesignal-customlink-container'></div>
+  <!-- <h1>Kelly Farm Pool</h1>
+  <p>Please allow notifications when prompted</p> -->
 
-  <!-- <script>
+  <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js');
     }
-  </script> -->
+  </script>
 </body>
 </html>
