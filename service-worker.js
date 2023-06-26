@@ -4,3 +4,5 @@ workbox.routing.registerRoute(
     ({request}) =>request.destination === 'image',
     new workbox.strategies.CacheFirst()
 )
+
+importScripts('https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js');
