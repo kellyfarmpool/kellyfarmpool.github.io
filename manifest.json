@@ -3,7 +3,7 @@
     "background_color": "#F8F9FA",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "/?home=\"true\"",
+    "start_url": "https://alerts.kellyfarmpool.org",
     "name": "Kelly Farm Pool",
     "short_name": "Kelly Farm Pool",
     "description": "Kelly Farm Pool & Racquet Association Notifications",
